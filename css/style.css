@@ -1,0 +1,204 @@
+html {
+    scroll-behavior: smooth !important;
+  }
+
+@keyframes example {
+    from {background-color: rgba(247, 199, 199, 0.459);}
+    to {background-color: rgba(252, 215, 115, 0.603);}
+  }
+
+  div.container-fluid {
+    background-color: rgb(243, 177, 177);
+     animation-name: example;
+     animation-duration: 5s;
+     animation-direction: alternate;
+     animation-iteration-count: infinite;
+     animation-timing-function:ease-in-out;
+   }
+
+   header {
+       position: fixed;
+   }
+
+   .navbar, .navbar-expand-lg {
+    background: rgb(247, 199, 199) !important;
+    border-bottom:2px dashed snow;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+a.nav-link {
+    color: white !important;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    padding-left: 20px !important;
+}
+
+a.nav-link:hover {
+    color:rgb(2, 245, 245) !important;
+    font-weight: 700;
+}
+
+
+.mydoorimg {
+    margin-top: 50px;
+    margin-bottom: 90px;
+   
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    line-height: 2rem;
+    color: rgb(138, 92, 39);
+}
+
+.mywelcome {
+    font-family: 'Playfair Display', serif;
+    line-height: 2rem;
+    color: rgb(138, 92, 39);
+    padding-top: 57px;
+}
+
+.myexplore {
+    font-family: 'Playfair Display', serif;
+    line-height: 2rem;
+    color: rgb(138, 92, 39);
+    padding-top: 10px;
+}
+
+.myplan {
+    margin-top: -50px;
+}
+
+.myplan2 {
+    margin-top: -50px;
+}
+
+.myplan3 {
+    margin-top: -50px;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color:pink;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: aqua;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color:turquoise;
+  }
+
+
+
+  @media (max-width: 375px) { 
+    h1 {
+        font-size: 16px !important;
+        line-height: 2rem;
+    }
+
+    .mydoorimg {
+        width: 350px !important;
+        height: auto;
+        margin-left: -10px !important;
+    }
+
+    .myplan, .myplan2, .myplan3 {
+        display: none;
+    }
+
+    .myplan4 {
+        display: block;
+    }
+
+ }
+
+  @media (max-width: 575px) { 
+    h1 {
+        font-size: 18px;
+        line-height: 2rem;
+    }
+
+    .mydoorimg {
+        width: 400px;
+        height: auto;
+        margin-left: 60px;
+    }
+
+    .myplan, .myplan2, .myplan3 {
+        display: none;
+    }
+
+    .myplan4 {
+        display: block;
+    }
+
+ }
+
+
+@media (min-width: 576px) { 
+    h1 {
+        font-size: 20px;
+        line-height: 2rem;
+    }
+
+    .myplan, .myplan2, .myplan4 {
+        display: none;
+    }
+
+    .myplan3 {
+        display: block;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+    h1 {
+    font-size: 22px;
+    line-height: 2rem;
+} 
+
+.myplan, .myplan3, .myplan4 {
+    display: none;
+}
+
+.myplan2 {
+    display: block;
+}
+
+
+}
+
+
+@media (min-width: 992px) { 
+    h1 {
+        font-size: 28px;
+        line-height: 3rem;
+    }
+
+    .myplan {
+        display: block;
+    }
+
+    .myplan2, .myplan3, .myplan4 {
+        display: none;
+    }
+ }
+
+
+@media (min-width: 1200px) { }
+
+
+@media (min-width: 1400px) { }

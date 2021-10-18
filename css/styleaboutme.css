@@ -1,0 +1,65 @@
+body { background-color: rgba(247, 199, 199, 0.459) !important;}
+    .container-fluid {background-color: rgba(255, 255, 255, 0) !important;}
+     p {
+         font-family: "Playfair Display", serif;
+         font-weight: 500;
+         font-size: 20px;
+         color: rgb(138, 92, 39);
+         margin-top: 120px;
+     }
+
+
+     @media (min-width: 375px) {
+        .mypic {
+            width: 500px !important;
+            height: auto;
+            margin: auto !important;
+        }
+
+        p {
+            font-size: 16px !important;
+            width: 400px;
+            margin: auto;
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+    }
+     @media (min-width: 576px) {
+        p {
+            font-size: 18px !important;
+            width: 600px;
+            margin: auto;
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+       
+     }
+    
+    
+    @media (min-width: 768px) {
+        p {
+            font-size: 18px !important;
+            
+            
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+    }
+    
+    
+    @media (min-width: 992px) {
+         
+        
+        
+    }
+    
+    @media (min-width: 1200px) {
+        .mypic {
+            width: 700px !important;
+            margin-left: -60px !important;
+            margin-top: -90px !important;
+        }
+
+        p {font-size: 20px;
+        margin-top: 120px;}
+     }

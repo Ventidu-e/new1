@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(247, 199, 199, 0.459) !important;
+}
+
+.container-fluid {
+    background-color: rgba(247, 199, 199, 0) !important;
+    
+}
+
+.mycontacts {
+    margin-top:50px;
+}
+
+p {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #8a5c27;
+    
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 90px;
+
+}
+
+
+
+.myemail {
+    margin-top: -50px;
+    margin-left: -10px;
+}
+
+.myinsta {
+    margin-left: -50px;
+}
+
+@media (max-width: 575px) { 
+    p {
+        font-size: 14px;
+    }
+ }
+
+
+@media (min-width: 576px) { 
+    p {
+        font-size: 18px;
+    }
+ }
